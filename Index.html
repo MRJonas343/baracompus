@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BaraCompus</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <!-- NavBar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <img src="img/logo-removebg.png" alt="Logo" id="logo" class="d-inline-block align-text-top mx-2">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item mx-2">
+            <a class="nav-link" href="Index.html">BaraCompus</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="AboutUS.html">About Us</a>
+          </li>
+          <li class="nav-item mx-3">
+            <a class="nav-link" href="contactUS.html">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Carrito de compras -->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasRightLabel">Tu carrito</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <div id="carritoContainer">
+
+      </div>
+    </div>
+  </div>
+  <br>
+
+  <!-- Contenedor anuncio -->
+  <div class="anuncio3">
+  </div>
+
+  <!-- Carrusel -->
+  <div class="containerCarousel">
+    <!--Carrusel  1-->
+    <a href="Gadgets.html">
+      <div class="contenedor0">
+        <div class="subtituloCarousel">
+          <p>Gadgets</p>
+        </div>
+        <div class="carouselfloat" class="carousel slide carousel-fade" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="3000">
+              <img src="img/shopping-removebg-preview.png" class="imgCarrusel" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="img/shop4-removebg-preview.png" class="imgCarrusel" alt="...">
+            </div>
+            <div class="carousel-item" data-bs-interval="3000">
+              <img src="img/shopping3-removebg-preview.png" class="imgCarrusel" alt="...">
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+    <!-- Carrusel  2-->
+    <div class="contenedor0">
+      <div class="subtituloCarousel">
+        <p>Monitores</p>
+      </div>
+      <div class="carouselfloat" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="3000">
+            <img src="img/mon1-removebg-preview.png" class="imgCarrusel" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/mon2-removebg-preview.png" class="imgCarrusel" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/mon3-removebg-preview.png" class="imgCarrusel" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carrusel 3-->
+    <div class="contenedor0">
+      <div class="subtituloCarousel">
+        <p>Laptops</p>
+      </div>
+      <div class="carouselfloat" class="carousel slide carousel-fade" data-bs-ride="carousel">
+        <div class="carousel-inner" data-bs-interval="3000">
+          <div class="carousel-item active">
+            <img src="img/lap5-removebg-preview.png" class="imgCarrusel" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/lap2-removebg-preview.png" class="imgCarrusel" alt="...">
+          </div>
+          <div class="carousel-item" data-bs-interval="3000">
+            <img src="img/lap3-removebg-preview.png" class="imgCarrusel" alt="...">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contenedor anuncio -->
+  <div class="anuncio">
+    <div class="contenidoAnuncio">
+      <h3>PC GAMERS</h3>
+      <p>Necesitas una potencia mayor al promedio?</p>
+    </div>
+  </div>
+
+  <!-- Contenedor de productos -->
+  <div class="productosContainer">
+
+    <div class="contendorProducto">
+      <img src="img/audifonos-removebg-preview.png" class="imgCard">
+      <div class="textcard">
+        <h4>Headphones</h4>
+        <div class="descripcion">
+          Disfruta de una mejor calidad de audio mientras conservas la portabilidad
+          <br>
+          <br>
+
+        </div>
+        <button class="btn btn-primary ParaCarrito">Añadir al carrito</button>
+      </div>
+
+    </div>
+    <!-- Producto2 -->
+    <div class="contendorProducto">
+      <img src="img/airpods-3ra-2-removebg-preview.png" class="imgCard">
+      <div class="textcard">
+        <h4>EARPHONES</h4>
+        LLevalos siempre contigo, con su discrecion pasaran desapercibidos
+        <br>
+        <br>
+        <button class="btn btn-primary ParaCarrito">Añadir al carrito</button>
+      </div>
+
+    </div>
+
+  </div>
+
+
+  <!-- Contenedor anuncion -->
+  <div class="anuncio2">
+    <div class="contenidoAnuncio2">
+      <h3>TABLETS</h3>
+      <p>Necesitas una pantalla mas grande? o tal vez un poco más de potencia?</p>
+    </div>
+  </div>
+
+  <!-- Promos -->
+  <div class="containerPromos">
+
+    <div id="Promo1" class="contenedorPromo">
+      <div class="contenidoPromo">
+        <i class="bi bi-bag-heart-fill"></i>
+        Descubre nuestras
+        <h3>Ofertas</h3>
+      </div>
+    </div>
+
+    <div id="Promo2" class="contenedorPromo">
+      <div class="contenidoPromo">
+        <i class="bi bi-credit-card-fill"></i>
+        Compra a meses
+        <h3>Sin intereses</h3>
+      </div>
+    </div>
+
+    <div id="Promo3" class="contenedorPromo">
+      <div class="contenidoPromo">
+        <i class="bi bi-geo-alt-fill"></i>
+        Ubica tu tienda
+        <h3>BaraCompus</h3>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- 2X2 -->
+
+  <div class="productosContainer">
+    <div class="contendorProducto">
+      <img src="img/watch-for-life-home.webp" class="imgCard">
+      <div class="textcard">
+        <h4>RELOJES INTELIGENTES</h4>
+        Tecnología en tu muñeca, disfruta de un diseño que eleve tu estilo manteniendo los beneficios de un gadget.
+      </div>
+    </div>
+    <div class="contendorProducto">
+      <img src="img/article_image_60aa8fbf512cc.jpg" class="imgCard">
+      <div class="textcard">
+        <h4>COMPONENTES</h4>
+        Dale una nueva vida a tu vejestorio con componentes a la vanguardia y de la mejor calidad en marcas
+      </div>
+    </div>
+  </div>
+  <div class="productosContainer">
+    <div class="contendorProducto">
+      <img src="img/614rz_ogtXL._SL1500.webp" class="imgCard">
+      <div class="textcard">
+        <h4>VR</h4>
+        Adentrate en la realidad aumentada con lentes VR mientras dañas brutalmente tu visión
+      </div>
+    </div>
+    <div class="contendorProducto">
+      <img src="img/klipartz.com.png" class="imgCard">
+      <div class="textcard">
+        <h4>REFACCIONES</h4>
+        Repara tu computadora con nosotros, no cobramos mucho y garantizamos que tu computadora no volvera a encender
+        despues del servicio
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <p>© BaraCompus. Todos los derechos reservados.</p>
+  </footer>
+
+
+  <script src="main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

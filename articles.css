@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+Ops+One&family=Nova+Square&family=Titillium+Web:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fjalla+One&family=Roboto&family=Vina+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Fjalla+One&family=Poppins:wght@300&family=Roboto&family=Vina+Sans&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f1f1f1eb;
+    overflow-x: hidden;
+}
+nav{
+    font-size: x-large;
+    font-family: 'Bebas Neue', sans-serif;
+}
+/* NAVBAR */
+#logo{
+    width: 90px;
+}
+.imgNav{
+    width: 30px;
+    margin-right: 20px; 
+    color: gray;
+    transition: color 0.5s ease; 
+    cursor: pointer;
+}
+.imgNav:hover {
+    color: rgb(0, 0, 0);
+}
+.imgCard{
+    max-width: 80%;
+}
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease;
+}
+.cardContainer button{
+    width: 100%;
+    margin-top: 10px;
+}
+.mainContainer{
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.currentPrice{
+    color: chocolate;
+    font-size: x-large;
+}
+.realPrice{
+    text-decoration: line-through;
+    color: black;
+    font-size: medium;
+}
+.cardContainer:hover{
+    transform: scale(0.90); /* Ajusta el valor para el nivel de zoom deseado */
+}
+/* Imagen carrito */
+.imgCarrito{
+    width: 160px;
+}
+.carritoContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
