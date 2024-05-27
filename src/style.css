@@ -91,7 +91,7 @@ nav {
     margin-left: 2vw;
     width: 96vw;
     height: 50vh;
-    background-image: url(./img/gaming_pcs.jpg);
+    background-image: url(../img/gaming_pcs.jpg);
     background-size: contain;
     background-position: center;
     margin-bottom: 5vh;
@@ -190,7 +190,7 @@ nav {
     margin-left: 2vw;
     width: 96vw;
     height: 50vh;
-    background-image: url(./img/tablets.png);
+    background-image: url(../img/tablets.png);
     background-size: contain;
     margin-bottom: 10vh;
     border-radius: 10px;
@@ -294,7 +294,7 @@ nav {
     margin-left: 2vw;
     width: 96vw;
     height: 40vh;
-    background-image: url(./img/banner1jpg.jpg);
+    background-image: url(../img/banner1jpg.jpg);
     background-size: cover;
     margin-bottom: 5vh;
     border-radius: 10px;
@@ -374,7 +374,7 @@ nav {
     margin-left: 2vw;
     width: 96vw;
     height: 67vh;
-    background-image: url(./img/pexels-pixabay-207896.jpg);
+    background-image: url(../img//pexels-pixabay-207896.jpg);
     background-size: cover;
     margin-bottom: 5vh;
     border-radius: 10px;
